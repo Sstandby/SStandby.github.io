@@ -6,8 +6,6 @@ excerpt: Sacando historial de incognito
 tags: [Batch, Windows]
 ---
   
-
-
 Bienvenidos. Hoy les traigo un nuevo blog espero que disfruten al leerlo sin mas que decir comencemos (^^)  
   
 El blog es muy básico y como siempre no viene de mas traer algo nuevo aunque sea demasiado fácil o como dije antes básico  
