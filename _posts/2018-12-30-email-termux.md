@@ -12,9 +12,8 @@ Bienvenidos a otro blog mio. Hoy buscaremos contraseñas de cuentas comprometida
 ----
 
 ```bash 
-pkg install python git
-pip2 install requests  
-pip2 install cfscrape  
+chmod +x install.sh
+./install.sh
 ```
 
 Cuando tengamos ya todo instalado procedemos a la instalación de la herramienta
@@ -35,7 +34,7 @@ cd pwnedOrNot/
 Ahora ejecutamos la herramienta
 
 ```bash
-python pwnedornot.py
+python3 pwnedornot.py -h
 ```
 
 ![termux](/assets/img/post/08/termux.jpg) 
