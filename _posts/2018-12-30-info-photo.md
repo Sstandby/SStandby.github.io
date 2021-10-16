@@ -89,13 +89,13 @@ chmod +x /path/to/geckodriver
 Para usar la herramienta
 
 ```bash
-python3 [eagle-eye.py](http://eagle-eye.py/)
+python3 eagle-eye.py
 ```
 
 Para ver una lista de todas las opciones disponibles
 
 ```bash
-python3 [eagle-eye.py](http://eagle-eye.py/) -h
+python3 eagle-eye.py -h
 ```
 
 ![captura](/assets/img/post/07/captura.jpg) 
