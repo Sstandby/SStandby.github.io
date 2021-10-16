@@ -1,7 +1,7 @@
 ---
 title: Historial de Incognito 
 date: 2018-12-29 
-categories: [Progración, Batch]
+categories: [Programación, Batch]
 excerpt: Sacando historial de incognito 
 tags: [Batch, Windows]
 ---
