@@ -28,9 +28,11 @@ $ git clone https://github.com/ThoughtfulDev/EagleEy
 $ cd EagleEye && sudo pip3 install -r requirements.txt
 
 $ sudo pip3 install --upgrade beautifulsoup4 html5lib spry
+```
 
-Arch y otros
+**Arch**
 
+```bash
 $ sudo pacman -Syu
 
 $ sudo pacman -S git python python-pip gtk3 boost cmake libffi
@@ -96,6 +98,6 @@ Para ver una lista de todas las opciones disponibles
 python3 [eagle-eye.py](http://eagle-eye.py/) -h
 ```
 
-![captura](/assets/img/post/05/captura2.jpg) 
+![captura](/assets/img/post/07/captura.jpg) 
  
-![captura2](/assets/img/post/05/captura2.jpg) 
+![captura2](/assets/img/post/07/captura2.jpg) 
