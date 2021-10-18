@@ -1,10 +1,10 @@
 ---
-title: Rastreo fotográfico
+title:  Rastreo fotográfico
 date: 2018-12-30
 categories: [Pentesting, Herramientas]
-excerpt: Rastreo todo tipo de imagenes..
+excerpt: Rastreo por imagen
 tags: [OSINT]
----
+---  
 
 Usaremos una herramienta llamada "EaglEye" lo único que tenemos que tener o darle a EagleEye es la foto de la víctima y nombre después lo que hará es hacer un reconocimiento facial a cada perfil de facebook hasta encontrar a esa persona y luego usa Google y ImageRaider Reverse Image Search para encontrar esa persona en otras redes sociales ya que termine todo este rollo nos dará un informe en modo PDF
 
@@ -47,7 +47,7 @@ $ sudo pip3 install --upgrade beautifulsoup4 html5lib spry
 Recuerda tener instalado Firefox y si ya lo tienes asegúrate tener instalado Geckodriver en su última versión para su arquitectura y si tesale broken pipe ERROR utiliza la versión de Geckodriver 0.19.1. También si tienes kali linux y tienes Firefox ESR utiliza la versión 17 de
 
 ### Instalación de Geckodrive  
-  
+----
 ```bash
 wget https://github.com/mozilla/geckodriver/tags
 sudo sh -c 'tar -x geckodriver -zf geckodriver-*.tar.gz -O > /usr/bin/geckodriver'

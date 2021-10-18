@@ -1,9 +1,9 @@
 ---
 title: Robando Informacion de servidores y de cualquier dispositivos con SHODAN/FTP
 date: 2018-12-30
-categories: [Pentesting, Protocolos]
+categories: [Redes, Protocolos]
 excerpt: Jugando con FTP
-tags: [FTP, Shodan, Protocolos]
+tags: [FTP, Shodan]
 ---
 
 Usaremos shodan para acceder a dispositivos de almacenamiento en la red, esto se puede hacer en cualquier terminal en el que se pueda usar ftp ¿Que es FTP? se preguntara los que no saben bueno ftp es un protocolo de trasferencia de ficheros o archivos entre sistemas conectados a una red TCP y que este basada en la arquitectua cliente-servidor. Bueno con esto podemos conectarnos remotamente a un servidor lo cual podremos descargar, ver, editar, o robar los archivos y ya que FTP su seguridad es muy "kk", pero lo bueno es que su conexión es muy rápida. Usaremos SHODAN aquí aprovechando esto para robar información de dispositivos o USBs.
@@ -15,6 +15,7 @@ Nosotros lo haremos más pro, desde una web para conectarnos al servidor, jaja. 
  ![seagate](/assets/img/post/12/seagate.jpg)
 
 ### Seagate dato interesante:
+----
 
 Seagate según wikipedia: Seagate Technology (NYSE: STX) es un importante fabricante estadounidense de discos duros, fundado en 1979 y con sede en Scotts Valley, California. La compañía está registrada en las Islas Caimán. Sus discos duros son usados en una variedad de computadoras, desde servidores, equipos de escritorio y portátiles hasta otros dispositivos de consumo como PVRs, la consola Xbox de Microsoft y la línea Creative Zen de reproductores de audio digital.
 
