@@ -1,7 +1,7 @@
 ---
 title: Encuentra posibles vulnerabilidades y urga por los directorios o ficheros.
 date: 2019-02-14
-categories: [Pentesting, Herramienta]
+categories: [Pentesting, Herramientas]
 excerpt: Busqueda de ficheros y directorios!
 tags: [spider]
 ---
