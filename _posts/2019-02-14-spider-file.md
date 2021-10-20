@@ -12,11 +12,11 @@ tags: [spider]
 
 Hay otras formas de hacer esto y podemos profundizar mas utilizando una herramienta llamada: [eNYe-Spider v1.0](http://www.enye-sec.org/programas/eNYeSpider-v1.0.zip) la cual analiza remotamente una web sacando la estructura de ficheros y directorios.  
   
-![file2](/assets/img/post/17/file_1.jpg) 
+![file2](/assets/img/post/18/file_1.jpg) 
   
 Está diseñado para que compruebes las vulnerabilidades de tu web e incluye algunos extras: posibilidad de usar un servidor proxy, discrimina los ficheros que aceptan parámetros por GET o POST, permite escribir anotaciones sobre los escaneos, navegador web integrado y permite guardar los análisis en disco.  
   
-![file3](/assets/img/post/17/file2.png) 
+![file3](/assets/img/post/18/file2.png) 
 
 Use la herramienta con Amino y sin duda alguna es buena, y a los que usen linux ya hay herramientas (Están preinstaladas de pendiendo del os, por ejemplo, Kali, Parrot, Pentoo, etc.) que hacen esto.  
   
