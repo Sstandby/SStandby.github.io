@@ -1,7 +1,7 @@
 ---
 title: AminoApps vulnerable? xd
 date: 2019-03-16
-categories: [Pentesting, Api-Reversing]
+categories: [Pentesting, Reversing]
 excerpt: Explorando el funcionamiento de la API AminoApps
 tags: [API, HTTPS]
 ---
