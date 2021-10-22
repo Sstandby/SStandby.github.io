@@ -22,8 +22,8 @@ title: Standby                          # the main title
 
 tagline: Linux ~ Programming ~ Pentesting   # it will display as the sub-title
 
-description: >-                        # used by seo meta and the atom feed
-  .
+description: >-                        # used by seo meta and the atom fe
+  Yo sólo puedo mostrarte la puerta, tú eres quien la tiene que atravesar.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://standby.netlify.app'
