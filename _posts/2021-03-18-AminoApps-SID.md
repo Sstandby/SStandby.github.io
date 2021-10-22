@@ -1,5 +1,5 @@
 ---
-title: Como entrar a una cuenta de Amino.
+title: Como entrar a una cuenta de Amino Apps.
 date: 2021-03-18
 categories: [Pentesting, Reversing]
 excerpt: SID de AminoAPps
