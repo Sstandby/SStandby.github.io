@@ -125,6 +125,7 @@ DEPENDENCIES
   html-proofer (~> 3.18)
   jekyll (~> 4.0)
   jekyll-feed (~> 0.12)
+  jekyll-paginate
   jekyll-sitemap
   jekyll-theme-chirpy!
   jekyll-tidy

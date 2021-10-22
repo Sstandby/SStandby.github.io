@@ -3,7 +3,7 @@ title: Robando Informacion de servidores y de cualquier dispositivos con SHODAN/
 date: 2018-12-30
 categories: [Redes, Protocolos]
 excerpt: Jugando con FTP
-tags: [FTP, Shodan]
+tags: [FTP, Redes, Shodan]
 ---
 
 Usaremos shodan para acceder a dispositivos de almacenamiento en la red, esto se puede hacer en cualquier terminal en el que se pueda usar ftp ¿Que es FTP? se preguntara los que no saben bueno ftp es un protocolo de trasferencia de ficheros o archivos entre sistemas conectados a una red TCP y que este basada en la arquitectua cliente-servidor. Bueno con esto podemos conectarnos remotamente a un servidor lo cual podremos descargar, ver, editar, o robar los archivos y ya que FTP su seguridad es muy "kk", pero lo bueno es que su conexión es muy rápida. Usaremos SHODAN aquí aprovechando esto para robar información de dispositivos o USBs.
