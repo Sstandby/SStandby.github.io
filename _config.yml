@@ -32,7 +32,7 @@ github:
   username: Sstandby          # change to your github username
 
 twitter:
-  username: twitter_username            # change to your twitter username
+  username: LyStand           # change to your twitter username
 
 social:
   # Change to your full name.
@@ -52,7 +52,7 @@ google_site_verification: google_meta_tag_verification # change to your verifica
 # ↑ --------------------------
 
 google_analytics:
-  id: 'G-LQZ6RX5RGM'              # fill in your Google Analytics ID
+  id: 'G-MZHWLZQCMJ'              # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
