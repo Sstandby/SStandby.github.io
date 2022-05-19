@@ -13,6 +13,6 @@ order: 4
 
 Actualmente soy un estudiante universitario por lo que mis conocimientos adquiridos durante este tiempo que pase lo iré incorporando en este espacio, antes esta web estaba en Blogger desde el 2017 hasta el 2021-10-18 y actualmente esta siendo alojada en github tanto los blogs en markdown. `[^^]`
 
-> Conoce tus debilidades. Acéptalas. Olvídate de las armas que no puedes empuñar. Encuentra todas las que puedas... y con cuidado, persistemente, afínales todas hasta un punto perverso. Eso es lo que significa... ser un pequeño gigante.
+> La filosofía del superviviente es la de que no hay planes para el día de mañana, se vive todo para el hoy.
 
 {: .prompt-tip }
