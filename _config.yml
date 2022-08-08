@@ -12,6 +12,9 @@ baseurl: ''
 # otherwise, the layout language will use the default value of 'en'.
 lang: es
 
+# Additional parameters for datetime localization, optional. › https://github.com/iamkun/dayjs/tree/dev/src/locale
+prefer_datetime_locale:
+
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: America/Colombia
 
@@ -20,39 +23,39 @@ timezone: America/Colombia
 
 title: Standby                          # the main title
 
-tagline: Linux ~ Programming ~ Pentesting   # it will display as the sub-title
+tagline: Porque hacer pasado mañana, lo que puedes hacer hoy mismo.  # it will display as the sub-title
 
-description: >-                        # used by seo meta and the atom fe
-  Yo sólo puedo mostrarte la puerta, tú eres quien la tiene que atravesar.
-
-# fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://www.standby.cf'
+description: >-                        # used by seo meta and the atom feed
+  Yo sóolo puedo mostrarte la puerta, tú eres quien la tiene que atravesarz.
+  # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
+url: 'https://sstandby.com'
 
 github:
-  username: Sstandby          # change to your github username
+  username: SStandby             # change to your github username
 
 twitter:
-  username: LyStand           # change to your twitter username
+  username: LyStand            # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Standby
-  email: example@doamin.com             # change to your email address
+  email: standby@sstandby.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    # - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/Sstandby       # change to your github homepage
+    - https://twitter.com/SStandby      # change to your twitter homepage
+    - https://github.com/LyStand       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-google_site_verification: google_meta_tag_verification # change to your verification string
+google_site_verification:               # fill in to your verification string
 
 # ↑ --------------------------
+# The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: 'G-MZHWLZQCMJ'              # fill in your Google Analytics ID
+  id:                 # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
@@ -69,21 +72,23 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: dark   # [light|dark]
+theme_mode:    # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn:
+img_cdn: ''
 
 # the avatar on sidebar, support local or CORS resources
 avatar: '/assets/img/icon/avatar.jpg'
 
 # boolean type, the global switch for ToC in posts.
+toc: true
+
 comments:
-  active: 'giscus'     # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  active: 'giscus'         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
     shortname:    # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
@@ -99,15 +104,17 @@ comments:
     category_id: "DIC_kwDOGOAzrs4CN6Lq"
     mapping: "url"          # optional, default to 'pathname'
     input_position: "top"   # optional, default to 'bottom'
-    lang: "es"              # optional, default to the value of `site.lang`
+    lang: "es"
 
-# Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
   self_host:
     enabled:      # boolean, keep empty means false
     # specify the Jekyll environment, empty means both
     # only works if `assets.self_host.enabled` is 'true'
     env:          # [development|production]
+
+pwa:
+  enabled: true   # the option for PWA feature
 
 paginate: 10
 
@@ -130,8 +137,7 @@ collections:
     sort_by: order
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ''          # An empty string here means all files in the project
       type: posts
     values:
@@ -141,19 +147,24 @@ defaults:
       # DO NOT modify the following parameter unless you are confident enough
       # to update the code of all other post links in this project.
       permalink: /posts/:title/
-  -
-    scope:
+  - scope:
       path: _drafts
     values:
-      comments: true
-  -
-    scope:
+      comments: false
+  - scope:
       path: ''
       type: tabs             # see `site.collections`
     values:
       layout: page
       permalink: /:title/
-      dynamic_title: true    # Hide title in mobile screens.
+  - scope:
+      path: assets/img/favicons
+    values:
+      swcache: true
+  - scope:
+      path: assets/js/dist
+    values:
+      swcache: true
 
 sass:
   style: compressed
@@ -171,12 +182,12 @@ exclude:
   - '*.gem'
   - '*.gemspec'
   - tools
-  - docs
   - README.md
+  - CHANGELOG.md
   - LICENSE
   - gulpfile.js
   - node_modules
-  - package.json
+  - package*.json
 
 jekyll-archives:
   enabled: [categories, tags]
