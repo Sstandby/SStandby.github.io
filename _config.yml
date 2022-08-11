@@ -26,8 +26,7 @@ title: Standby                          # the main title
 tagline: Porque hacer pasado mañana, lo que puedes hacer hoy mismo.  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Yo sóolo puedo mostrarte la puerta, tú eres quien la tiene que atravesarz.
-  # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
+  Yo sólo puedo mostrarte la puerta, tú eres quien la tiene que atravesarz.
 url: 'https://sstandby.com'
 
 github:
@@ -85,8 +84,8 @@ img_cdn: ''
 avatar: '/assets/img/icon/avatar.jpg'
 
 # boolean type, the global switch for ToC in posts.
-toc: true
 
+toc: true
 comments:
   active: 'giscus'         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
