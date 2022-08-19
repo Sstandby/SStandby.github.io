@@ -42,8 +42,8 @@ social:
   email: standby@sstandby.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/SStandby      # change to your twitter homepage
-    - https://github.com/LyStand       # change to your github homepage
+    - https://twitter.com/LyStand      # change to your twitter homepage
+    - https://github.com/SStandby       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
